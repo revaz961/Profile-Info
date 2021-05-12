@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
 
         btnClear.setOnLongClickListener {
             clear()
+            Toast.makeText(this,"all fields are cleared",Toast.LENGTH_LONG).show()
             true
         }
     }
